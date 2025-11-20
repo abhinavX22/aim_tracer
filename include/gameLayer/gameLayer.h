@@ -20,7 +20,7 @@ namespace platform
 	inline int getWindowSizeX() { return getWindowSize().x; }
 	inline int getWindowSizeY() { return getWindowSize().y; }
 
-	//usually is the same as getWindowSize unless you have things like zoom or rezolution.
+	//usually is the same as getWindowSize unless you have things like zoom or rezolution 
 	//You should use this function if you want to pass this data to glviewport
 	glm::ivec2 getFrameBufferSize();
 
