@@ -11,7 +11,7 @@ void Bullet::render(gl2d::Renderer2D &renderer,
 	angle = glm::degrees(angle) + 90.f;
 
 	glm::vec4 textureCoords = bulletsAtlas.get(1, 1);
-
+//finally i have made a project which contributed to my skills
 	if (isEnemy)
 	{
 		textureCoords = bulletsAtlas.get(0, 0);
